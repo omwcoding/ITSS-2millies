@@ -114,7 +114,6 @@ class RomanToDecimalConverterTest {
     @Test
     @DisplayName("Test convertRomanToDecimal with default case activated")
     void testConvertRomanToDecimal_DefaultCase() {
-        // Passiamo un carattere non previsto per attivare il case default nello switch
         Assertions.assertEquals(0, RomanToDecimalConverter.convertRomanToDecimal("Z"));
     }
 
