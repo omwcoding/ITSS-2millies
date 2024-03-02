@@ -36,7 +36,6 @@ class RomanToDecimalConverterTest {
         Assertions.assertEquals("MCMXCIV", RomanToDecimalConverter.convertDecimalToRoman(1994));
         Assertions.assertEquals("MMMCMXCIX", RomanToDecimalConverter.convertDecimalToRoman(3999));
     }
-
     @Test
     @DisplayName("Test isValidRomanNumber with valid inputs")
     void testIsValidRomanNumber_ValidInputs() {
@@ -116,5 +115,13 @@ class RomanToDecimalConverterTest {
     void testConvertRomanToDecimal_DefaultCase() {
         Assertions.assertEquals(0, RomanToDecimalConverter.convertRomanToDecimal("Z"));
     }
-
+    @Test
+    @DisplayName("Test convertRomanToDecimal with null or empty input")
+    void testConvertRomanToDecimal_NullOrEmptyInput() {
+        // Verifica che il metodo restituisca 0 quando l'input è null
+        Assertions.assertEquals(0, RomanToDecimalConverter.convertRomanToDecimal(null));
+        // Verifica che il metodo restituisca 0 quando l'input è una stringa vuota
+        Assertions.assertEquals(0, RomanToDecimalConverter.convertRomanToDecimal(""));
+    }
+    //saltati i test sull'interdipendenza che comprende le divisioni tra 0 o null.
 }
