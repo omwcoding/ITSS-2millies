@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 
-class RomanToDecimalConverterTest {
+class RomanToDecimalConverterTest_SB_ST {
 
     @Test
     @DisplayName("Test convertRomanToDecimal with valid inputs")

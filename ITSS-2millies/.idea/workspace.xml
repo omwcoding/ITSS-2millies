@@ -5,14 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="85cb9fb9-1864-4c99-bcd7-c9ce0b8d314a" name="Changes" comment="Gitignore file push">
-      <change beforePath="$PROJECT_DIR$/../.idea/sonarlint/issuestore/8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/sonarlint/securityhotspotstore/8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW1_2millies_Code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/RomanToDecimalConverterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/RomanToDecimalConverterTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Test.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/b/0ba1b9c7a4878802f938e331cc2d8a042087ec6b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/6/2651ee6dd9933e90a940708ed3680d13315ed8b4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/0/b/0ba1b9c7a4878802f938e331cc2d8a042087ec6b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/2/6/2651ee6dd9933e90a940708ed3680d13315ed8b4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/RomanToDecimalConverterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/RomanToDecimalConverterTest_SB_ST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RELAZIONE/Relazione 2millies.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../RELAZIONE/Relazione 2millies.docx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +27,13 @@
   <component name="ExportToHTMLSettings">
     <option name="OPEN_IN_BROWSER" value="true" />
     <option name="OUTPUT_DIRECTORY" value="C:\Users\umber\Desktop" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -44,19 +56,29 @@
   &quot;associatedIndex&quot;: 8
 }</component>
   <component name="ProjectId" id="2cxX8ZzdUu7UDMIvHoAyqOuRaPZ" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "JUnit.RomanToDecimalConverterTest.executor": "Run",
+    "JUnit.RomanToDecimalConverterTest.executor": "Coverage",
+    "JUnit.RomanToDecimalConverterTest.testAreInterdependent_DivisionByZero.executor": "Run",
+    "JUnit.RomanToDecimalConverterTest.testAreInterdependent_NullInputs.executor": "Run",
+    "JUnit.RomanToDecimalConverterTest.testAreInterdependent_NullOrEmptyInputs.executor": "Run",
     "JUnit.RomanToDecimalConverterTest.testAreInterdependent_ValidAndInvalidInputs.executor": "Run",
     "JUnit.RomanToDecimalConverterTest.testConvertDecimalToRoman_ValidInputs.executor": "Run",
     "JUnit.RomanToDecimalConverterTest.testConvertRomanToDecimal_MixedCaseInput.executor": "Run",
     "JUnit.RomanToDecimalConverterTest.testConvertRomanToDecimal_NumberGreaterThan3999.executor": "Run",
+    "JUnit.RomanToDecimalConverterTest.testConvertRomanToDecimal_ValidInputs.executor": "Run",
+    "JUnit.RomanToDecimalConverter_PBT.executor": "Run",
+    "JUnit.java in ITSS-2millies.executor": "Coverage",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/umber/Desktop",
@@ -64,23 +86,24 @@
     "settings.editor.selected.configurable": "coverage"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.RomanToDecimalConverterTest">
-    <configuration name="RomanToDecimalConverterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.RomanToDecimalConverter_PBT">
+    <configuration name="RomanToDecimalConverterTest_SB_ST" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ITSS-2millies" />
-      <extension name="coverage">
+      <extension name="coverage" runner="jacoco">
         <pattern>
           <option name="PATTERN" value="org.example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.RomanToDecimalConverterTest" />
+      <option name="MAIN_CLASS_NAME" value="org.example.RomanToDecimalConverterTest_SB_ST" />
+      <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RomanToDecimalConverterTest.testAreInterdependent_ValidAndInvalidInputs" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RomanToDecimalConverterTest_SB_ST.testAreInterdependent_DivisionByZero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ITSS-2millies" />
       <extension name="coverage">
         <pattern>
@@ -89,14 +112,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.RomanToDecimalConverterTest" />
-      <option name="METHOD_NAME" value="testAreInterdependent_ValidAndInvalidInputs" />
+      <option name="MAIN_CLASS_NAME" value="org.example.RomanToDecimalConverterTest_SB_ST" />
+      <option name="METHOD_NAME" value="testAreInterdependent_DivisionByZero" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RomanToDecimalConverterTest.testConvertDecimalToRoman_ValidInputs" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RomanToDecimalConverterTest_SB_ST.testConvertRomanToDecimal_ValidInputs" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ITSS-2millies" />
       <extension name="coverage">
         <pattern>
@@ -105,14 +128,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.RomanToDecimalConverterTest" />
-      <option name="METHOD_NAME" value="testConvertDecimalToRoman_ValidInputs" />
+      <option name="MAIN_CLASS_NAME" value="org.example.RomanToDecimalConverterTest_SB_ST" />
+      <option name="METHOD_NAME" value="testConvertRomanToDecimal_ValidInputs" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RomanToDecimalConverterTest.testConvertRomanToDecimal_MixedCaseInput" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RomanToDecimalConverter_PBT" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ITSS-2millies" />
       <extension name="coverage">
         <pattern>
@@ -121,38 +144,43 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.RomanToDecimalConverterTest" />
-      <option name="METHOD_NAME" value="testConvertRomanToDecimal_MixedCaseInput" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="org.example.RomanToDecimalConverter_PBT" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RomanToDecimalConverterTest.testConvertRomanToDecimal_NumberGreaterThan3999" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="java in ITSS-2millies" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ITSS-2millies" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.RomanToDecimalConverterTest" />
-      <option name="METHOD_NAME" value="testConvertRomanToDecimal_NumberGreaterThan3999" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="directory" />
+      <dir value="$PROJECT_DIR$/src/test/java" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="JUnit.RomanToDecimalConverter_PBT" />
+      <item itemvalue="JUnit.RomanToDecimalConverterTest_SB_ST" />
+      <item itemvalue="JUnit.RomanToDecimalConverterTest_SB_ST.testConvertRomanToDecimal_ValidInputs" />
+      <item itemvalue="JUnit.RomanToDecimalConverterTest_SB_ST.testAreInterdependent_DivisionByZero" />
+      <item itemvalue="JUnit.java in ITSS-2millies" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.RomanToDecimalConverterTest" />
-        <item itemvalue="JUnit.RomanToDecimalConverterTest.testConvertRomanToDecimal_MixedCaseInput" />
-        <item itemvalue="JUnit.RomanToDecimalConverterTest.testConvertRomanToDecimal_NumberGreaterThan3999" />
-        <item itemvalue="JUnit.RomanToDecimalConverterTest.testConvertDecimalToRoman_ValidInputs" />
-        <item itemvalue="JUnit.RomanToDecimalConverterTest.testAreInterdependent_ValidAndInvalidInputs" />
+        <item itemvalue="JUnit.RomanToDecimalConverter_PBT" />
+        <item itemvalue="JUnit.RomanToDecimalConverterTest_SB_ST" />
+        <item itemvalue="JUnit.RomanToDecimalConverterTest_SB_ST.testConvertRomanToDecimal_ValidInputs" />
+        <item itemvalue="JUnit.java in ITSS-2millies" />
+        <item itemvalue="JUnit.RomanToDecimalConverterTest_SB_ST.testAreInterdependent_DivisionByZero" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.10-corretto-17.0.10-4caba194b151-5cd809f4" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -198,20 +226,13 @@
     <MESSAGE value="Gitignore file push" />
     <option name="LAST_COMMIT_MESSAGE" value="Gitignore file push" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/ITSS_2millies$RomanToDecimalConverterTest.ic" NAME="RomanToDecimalConverterTest Coverage Results" MODIFIED="1709223952642" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/ITSS_2millies$RomanToDecimalConverterTest.ic" NAME="RomanToDecimalConverterTest Coverage Results" MODIFIED="1709372526747" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>org.example.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/ITSS_2millies$RomanToDecimalConverterTest.exec" NAME="RomanToDecimalConverterTest Coverage Results" MODIFIED="1709380244006" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="jacoco" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>org.example.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/ITSS_2millies$java_in_ITSS_2millies.ic" NAME="java in ITSS-2millies Coverage Results" MODIFIED="1709374564894" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
