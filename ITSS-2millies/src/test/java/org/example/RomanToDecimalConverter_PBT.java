@@ -1,17 +1,14 @@
 package org.example;
 import net.jqwik.api.*;
-import net.jqwik.time.api.arbitraries.CalendarArbitrary;
+import net.jqwik.api.statistics.Statistics;
 import org.junit.jupiter.api.Assumptions;
 
-import java.util.Random;
-import static org.assertj.core.api.Assertions.*;
-import static org.example.RomanToDecimalConverter.*;
-import static org.junit.jupiter.api.Assertions.*;
-import static org.junit.jupiter.api.Assumptions.*;
+import java.math.RoundingMode;
 
-            //TODO: RISOLVERE I METODI INUTILIZZATI
-            //TODO: PERCHE' LA CLASSE è ROSSA???????
-            //TODO: AGGIUNGERE STAMPA STATISTICHE JQWIK VEDI DOCUMENTAZIONE
+import static org.junit.jupiter.api.Assertions.*;
+
+
+
 
 public class RomanToDecimalConverter_PBT {
     @Property
@@ -19,32 +16,14 @@ public class RomanToDecimalConverter_PBT {
         int decimalNumber = RomanToDecimalConverter.convertRomanToDecimal(romanNumber);
         assertTrue(decimalNumber >= 0);
     }
-
     @Property
     void converted_roman_should_be_a_valid_roman_number(@ForAll("positiveIntegers") int decimalNumber) {
         String romanNumber = RomanToDecimalConverter.convertDecimalToRoman(decimalNumber);
         assertTrue(RomanToDecimalConverter.isValidRomanNumber(romanNumber));
     }
-
-    @Provide
-    Arbitrary<String> validRomanNumbers() {
-        return Arbitraries.strings().withCharRange('I', 'M').ofMinLength(1).ofMaxLength(10);
-    }
-
-    @Provide
-    Arbitrary<Integer> positiveIntegers() {
-        return Arbitraries.integers().between(1, 3999);
-    }
-
     @Property
     void palindrome_should_return_true_for_palindromic_roman_numbers(@ForAll("palindromicRomanNumbers") String romanNumber) {
         assertTrue(RomanToDecimalConverter.isPalindrome(romanNumber));
-    }
-
-    @Provide
-    Arbitrary<String> palindromicRomanNumbers() {
-        return Arbitraries.strings().withCharRange('I', 'M').ofMinLength(1).ofMaxLength(10)
-                .filter(RomanToDecimalConverter::isPalindrome);
     }
 
     @Property
@@ -68,7 +47,28 @@ public class RomanToDecimalConverter_PBT {
             assertTrue(decimal1 % decimal2 == 0 || decimal2 % decimal1 == 0);
         }
     }
-
-
-
+    //abbiamo definito un generatore chiamato validRomanNumbers che genera stringhe rappresentanti numeri romani validi.
+    // Questo generatore viene quindi utilizzato nel test converted_decimal_should_be_greater_than_zero per fornire valori
+    // validi di numeri romani.
+    //ogni provide genera i valori appropriati per ogni test altrimenti il framework di jqwik non riesce a generare i valori
+    //richiesti per i test
+    @Provide
+    Arbitrary<String> validRomanNumbers() {
+        return Arbitraries.strings().withCharRange('I', 'M').ofMinLength(1).ofMaxLength(10)
+                .filter(RomanToDecimalConverter::isValidRomanNumber);
+    }
+    @Provide
+    Arbitrary<Integer> positiveIntegers() {
+        return Arbitraries.integers().between(1, 3999);
+    }
+    @Provide
+    Arbitrary<String> palindromicRomanNumbers() {
+        return Arbitraries.strings().withCharRange('I', 'M').ofMinLength(1).ofMaxLength(9)
+                .filter(RomanToDecimalConverter::isPalindrome);
+    }
+    @Property
+    void simpleStats(@ForAll RoundingMode RomanToDecimalConvert_PBT) {
+        Statistics.collect(RomanToDecimalConvert_PBT);
+    }
 }
+
