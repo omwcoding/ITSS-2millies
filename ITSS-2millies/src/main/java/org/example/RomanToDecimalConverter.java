@@ -18,10 +18,8 @@ public class RomanToDecimalConverter {
                 decimalNumber += value;
             prevValue = value;
         }
-
         return decimalNumber;
     }
-
     private static int getRomanValue(char romanChar) {
         switch (romanChar) {
             case 'I':
