@@ -38,8 +38,8 @@ public class RomanToDecimalConverter_PBT {
     }
     @Property
     @StatisticsReport(format = Histogram.class)
-    void interdependentNumbersShouldBeDivisibleTest(@ForAll("validRomanNumbers") String romanNumber1,
-                                                @ForAll("validRomanNumbers") String romanNumber2) {
+    void interdependentNumbersShouldBeDivisibleTest(@ForAll("randomRomaNumbers") String romanNumber1,
+                                                    @ForAll("randomRomaNumbers") String romanNumber2) {
         // Ensure numbers are different
         Assumptions.assumeTrue(!romanNumber1.equals(romanNumber2));
 

@@ -9,8 +9,9 @@
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/RomanToDecimalConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/RomanToDecimalConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/RomanToDecimalConverterTest_SB_ST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/RomanToDecimalConverterTest_SB_ST.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/example/RomanToDecimalConverter_PBT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/RomanToDecimalConverter_PBT.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RELAZIONE/Relazione 2millies.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../RELAZIONE/Relazione 2millies.docx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,12 +73,14 @@
     "JUnit.RomanToDecimalConverterTest.testConvertRomanToDecimal_MixedCaseInput.executor": "Run",
     "JUnit.RomanToDecimalConverterTest.testConvertRomanToDecimal_NumberGreaterThan3999.executor": "Run",
     "JUnit.RomanToDecimalConverterTest.testConvertRomanToDecimal_ValidInputs.executor": "Run",
+    "JUnit.RomanToDecimalConverterTest_SB_ST.executor": "Run",
     "JUnit.RomanToDecimalConverter_PBT.converted_decimal_should_be_an_integer.executor": "Run",
     "JUnit.RomanToDecimalConverter_PBT.converted_decimal_should_be_greater_than_zero.executor": "Run",
     "JUnit.RomanToDecimalConverter_PBT.converted_roman_should_be_a_valid_roman_number.executor": "Run",
     "JUnit.RomanToDecimalConverter_PBT.executor": "Run",
     "JUnit.RomanToDecimalConverter_PBT.integerStats.executor": "Run",
     "JUnit.RomanToDecimalConverter_PBT.integersInRanges.executor": "Run",
+    "JUnit.RomanToDecimalConverter_PBT.interdependentNumbersShouldBeDivisibleTest.executor": "Run",
     "JUnit.RomanToDecimalConverter_PBT.interdependent_numbers_should_be_divisible.executor": "Run",
     "JUnit.RomanToDecimalConverter_PBT.palindrome_should_return_true_for_palindromic_roman_numbers.executor": "Run",
     "JUnit.RomanToDecimalConverter_PBT.simpleStats.executor": "Run",
@@ -89,10 +92,40 @@
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/umber/Desktop",
     "onboarding.tips.debug.path": "C:/Users/umber/Documents/GitHub/ITSS-2millies/ITSS-2millies/src/main/java/org/example/Main.java",
-    "settings.editor.selected.configurable": "coverage"
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.RomanToDecimalConverter_PBT.converted_decimal_should_be_greater_than_zero">
+  <component name="RunManager" selected="JUnit.RomanToDecimalConverter_PBT">
+    <configuration name="RomanToDecimalConverterTest_SB_ST" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ITSS-2millies" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.RomanToDecimalConverterTest_SB_ST" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RomanToDecimalConverter_PBT" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ITSS-2millies" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.RomanToDecimalConverter_PBT" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RomanToDecimalConverter_PBT.converted_decimal_should_be_greater_than_zero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ITSS-2millies" />
       <extension name="coverage">
@@ -125,7 +158,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RomanToDecimalConverter_PBT.interdependent_numbers_should_be_divisible" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RomanToDecimalConverter_PBT.interdependentNumbersShouldBeDivisibleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ITSS-2millies" />
       <extension name="coverage">
         <pattern>
@@ -135,58 +168,26 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
       <option name="MAIN_CLASS_NAME" value="org.example.RomanToDecimalConverter_PBT" />
-      <option name="METHOD_NAME" value="interdependent_numbers_should_be_divisible(java.lang.String,java.lang.String)" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RomanToDecimalConverter_PBT.palindrome_should_return_true_for_palindromic_roman_numbers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ITSS-2millies" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.RomanToDecimalConverter_PBT" />
-      <option name="METHOD_NAME" value="palindrome_should_return_true_for_palindromic_roman_numbers(java.lang.String)" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RomanToDecimalConverter_PBT.simpleStats" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ITSS-2millies" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.RomanToDecimalConverter_PBT" />
-      <option name="METHOD_NAME" value="simpleStats(java.math.RoundingMode)" />
+      <option name="METHOD_NAME" value="interdependentNumbersShouldBeDivisibleTest(java.lang.String,java.lang.String)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.RomanToDecimalConverter_PBT.interdependent_numbers_should_be_divisible" />
-      <item itemvalue="JUnit.RomanToDecimalConverter_PBT.simpleStats" />
+      <item itemvalue="JUnit.RomanToDecimalConverterTest_SB_ST" />
+      <item itemvalue="JUnit.RomanToDecimalConverter_PBT" />
+      <item itemvalue="JUnit.RomanToDecimalConverter_PBT.interdependentNumbersShouldBeDivisibleTest" />
       <item itemvalue="JUnit.RomanToDecimalConverter_PBT.converted_decimal_should_be_greater_than_zero" />
       <item itemvalue="JUnit.RomanToDecimalConverter_PBT.converted_roman_should_be_a_valid_roman_number" />
-      <item itemvalue="JUnit.RomanToDecimalConverter_PBT.palindrome_should_return_true_for_palindromic_roman_numbers" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RomanToDecimalConverter_PBT" />
+        <item itemvalue="JUnit.RomanToDecimalConverter_PBT.interdependentNumbersShouldBeDivisibleTest" />
+        <item itemvalue="JUnit.RomanToDecimalConverterTest_SB_ST" />
         <item itemvalue="JUnit.RomanToDecimalConverter_PBT.converted_decimal_should_be_greater_than_zero" />
         <item itemvalue="JUnit.RomanToDecimalConverter_PBT.converted_roman_should_be_a_valid_roman_number" />
-        <item itemvalue="JUnit.RomanToDecimalConverter_PBT.interdependent_numbers_should_be_divisible" />
-        <item itemvalue="JUnit.RomanToDecimalConverter_PBT.palindrome_should_return_true_for_palindromic_roman_numbers" />
-        <item itemvalue="JUnit.RomanToDecimalConverter_PBT.simpleStats" />
       </list>
     </recent_temporary>
   </component>
@@ -246,7 +247,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710412898979</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Gitignore file push">
+      <option name="closed" value="true" />
+      <created>1710788741710</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1710788741710</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

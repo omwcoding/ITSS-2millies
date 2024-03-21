@@ -21,7 +21,6 @@ class RomanToDecimalConverterTest_SB_ST {
         Assertions.assertEquals(3999,RomanToDecimalConverter.convertRomanToDecimal("MMMCMXCIX"));
 
     }
-
     @Test
     @DisplayName("Test convertDecimalToRoman with valid inputs")
     void testConvertDecimalToRoman_ValidInputs() {
@@ -50,7 +49,6 @@ class RomanToDecimalConverterTest_SB_ST {
         Assertions.assertFalse(RomanToDecimalConverter.isValidRomanNumber("XYZ"));
         Assertions.assertFalse(RomanToDecimalConverter.isValidRomanNumber("RIC"));
     }
-
     @Test
     @DisplayName("Test areInterdependent with valid roman numbers")
     void testAreInterdependent_ValidRomanNumbers() {
@@ -59,21 +57,17 @@ class RomanToDecimalConverterTest_SB_ST {
         Assertions.assertFalse(RomanToDecimalConverter.areInterdependent("IV", "VI"));
         Assertions.assertFalse(RomanToDecimalConverter.areInterdependent("VII", "V"));
     }
-
-
     @Test
     @DisplayName("Test isPalindrome with valid inputs")
     void testIsPalindrome_ValidInputs() {
         Assertions.assertTrue(RomanToDecimalConverter.isPalindrome("IXI"));
         Assertions.assertFalse(RomanToDecimalConverter.isPalindrome("XIV"));
     }
-
     @Test
     @DisplayName("Test convertRomanToDecimal with null input")
     void testConvertRomanToDecimal_NullInput() {
         Assertions.assertEquals(0, RomanToDecimalConverter.convertRomanToDecimal(null));
     }
-
     @Test
     @DisplayName("Test isValidRomanNumber with empty string")
     void testIsValidRomanNumber_EmptyStringInput() {
@@ -118,10 +112,7 @@ class RomanToDecimalConverterTest_SB_ST {
     @Test
     @DisplayName("Test convertRomanToDecimal with null or empty input")
     void testConvertRomanToDecimal_NullOrEmptyInput() {
-        // Verifica che il metodo restituisca 0 quando l'input è null
         Assertions.assertEquals(0, RomanToDecimalConverter.convertRomanToDecimal(null));
-        // Verifica che il metodo restituisca 0 quando l'input è una stringa vuota
         Assertions.assertEquals(0, RomanToDecimalConverter.convertRomanToDecimal(""));
     }
-    //saltati i test sull'interdipendenza che comprende le divisioni tra 0 o null.
 }
